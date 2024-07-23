@@ -1,13 +1,13 @@
 import React from "react";
 
 const ShareSocials = ({ phrase }) => {
-  const linkedInShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=https://tu-sitio-web.com&title=${encodeURIComponent(
+  const linkedInShareUrl = `https://www.linkedin.com/shareArticle?mini=true&url=https://mi-sitio-web.com&title=${encodeURIComponent(
     phrase
   )}&summary=${encodeURIComponent(phrase)}&source=https://tu-sitio-web.com`;
-  const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=https://tu-sitio-web.com&quote=${encodeURIComponent(
+  const facebookShareUrl = `https://www.facebook.com/sharer/sharer.php?u=https://mi-sitio-web.com&quote=${encodeURIComponent(
     phrase
   )}`;
-  const instagramShareUrl = `https://www.instagram.com/?url=https://tu-sitio-web.com&caption=${encodeURIComponent(
+  const instagramShareUrl = `https://www.instagram.com/?url=https://mi-sitio-web.com&caption=${encodeURIComponent(
     phrase
   )}`;
 
